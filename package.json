@@ -1,0 +1,15 @@
+{
+  "name": "node-the-right-way",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -- networking/test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "3.4.2"
+  }
+}
