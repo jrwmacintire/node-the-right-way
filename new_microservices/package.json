@@ -1,0 +1,19 @@
+{
+  "name": "microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "zeromq": "5.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
