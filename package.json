@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test-networking": "mocha -- networking/test",
-    "test-databases": "mocha -- databases/test"
+    "test-databases": "mocha -- databases/test",
+    "test-databases:watch": "mocha --watch -- databases/test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "3.4.2"
+    "chai": "3.5.0",
+    "mocha": "2.4.5"
+  },
+  "dependencies": {
+    "cheerio": "0.22.0"
   }
 }
