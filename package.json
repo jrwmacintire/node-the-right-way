@@ -6,7 +6,7 @@
   "scripts": {
     "test-networking": "mocha -- networking/test",
     "test-databases": "mocha -- databases/test",
-    "test-databases:watch": "mocha --watch -- databases/test"
+    "test-databases:watch": "mocha --watch databases/test"
   },
   "keywords": [],
   "author": "",
