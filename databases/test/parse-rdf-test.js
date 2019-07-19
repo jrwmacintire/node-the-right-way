@@ -16,9 +16,11 @@ describe('parseRDF', () => {
         expect(book).to.be.an('object');
         expect(book).to.have.a.property('id', 16);
         expect(book).to.have.a.property('title', 'Peter Pan');
+
         expect(book).to.have.a.property('authors')
             .that.is.an('array').with.lengthOf(1)
             .and.contains('Barrie, J. M. (James Matthew)');
+            
         expect(book).to.have.a.property('subjects')
             .that.is.an('array').with.lengthOf(5)
             .and.contains('Fantasy literature')
