@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -- networking/test"
+    "test-networking": "mocha -- networking/test",
+    "test-databases": "mocha -- databases/test"
   },
   "keywords": [],
   "author": "",
