@@ -6,7 +6,9 @@
   "scripts": {
     "test-networking": "mocha -- networking/test",
     "test-databases": "mocha -- databases/test",
-    "test-databases:watch": "mocha --watch databases/test"
+    "test-databases:watch": "mocha --watch databases/test",
+    "test-databases:debug": 
+      "node --inspect node_modules/mocha/bin/_mocha --watch --no-timeouts databases/test"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "mocha": "2.4.5"
   },
   "dependencies": {
-    "cheerio": "0.22.0"
+    "cheerio": "0.22.0",
+    "node-dir": "0.1.16"
   }
 }
